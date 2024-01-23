@@ -157,7 +157,7 @@
       <!-- END HEADER -->
 
       <!-- BEGIN HERO SECTION -->
-      <section id="hero" class="bg-slideshow section-divider-bottom-1">
+      <section id="hero">
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
@@ -172,6 +172,7 @@
                     data-animation-delay="300"
                     >Παναγιώτης</span
                   >
+                  <!-- <br> -->
                   <small
                     data-animation-direction="from-top"
                     data-animation-delay="300"
@@ -211,11 +212,8 @@
       <!-- END OUR STORY TITLE SECTION -->
 
       <!-- BEGIN THE WEDDING SECTION -->
-      <section
-        id="the-wedding"
-        class="parallax-background bg-color-overlay padding-divider-top section-divider-bottom-1"
-      >
-        <div class="section-divider-top-1 off-section"></div>
+      <section id="the-wedding" class="parallax-background bg-color-overlay">
+        <div class="off-section"></div>
         <!-- The class "section-divider-top-1" can also be applied to the tag <section>. In this case, it was added on a new <div> because the tag <section> have all pseudo elements (::after and ::before) in use. -->
         <div class="container">
           <div class="row">
@@ -233,24 +231,38 @@
                 data-animation-direction="from-left"
                 data-animation-delay="100"
               >
-                <div class="invite_title">
+                <!-- <div class="invite_title">
                   <div class="text">Save<small>the</small>Date</div>
-                </div>
+                </div> -->
 
                 <div class="invite_info">
-                  <h2>Isabella <small>&</small> Andrew</h2>
+                  <h2>Παναγιώτης <small>&</small> Μαρία</h2>
 
                   <div class="uppercase">
-                    Request the honor of your presence on their wedding day
+                    ΘΑ ΗΤΑΝ ΤΙΜΗ ΚΑΙ ΧΑΡΑ ΜΑΣ ΝΑ ΣΑΣ ΔΟΥΜΕ ΣΤΟ ΓΑΜΟ ΜΑΣ ΤΟ
+                    ΣΑΒΒΑΤΟ
                   </div>
-                  <div class="date">
-                    September 24, 2022<small>at 03:00 pm</small>
-                  </div>
+                  <div class="date">17.02.2024<small>στις 04:00μ.μ</small></div>
                   <div class="uppercase">
-                    At Birchwood Church<br />4181 Birchwood Ave Seal Beach, CA
+                    ΣΤΟΝ ΙΕΡΟ ΝΑΟ ΑΓΙΟΥ ΑΘΑΝΑΣΙΟΥ,<br />
+                    ΠΟΛΥΧΡΟΝΟ ΧΑΛΚΙΔΙΚΗΣ.
                   </div>
 
-                  <h5>Reception to follow</h5>
+                  <br />
+                  <br />
+                  <div class="">
+                    <div>ΟΙΚΟΓΕΝΕΙΕΣ</div>
+                    <div>
+                      ΚΥΡΙΑΚΟΥ & ΓΕΡΑΚΙΝΑΣ ΠΑΤΤΙΧΑ - ΠΗΝΕΛΟΠΗ ΑΔΑΜ, ΓΕΩΡΓΙΟΥ
+                      ΚΑΛΛΙΑΡΑ
+                    </div>
+                  </div>
+                  <br />
+
+                  <div class="">
+                    <div>ΚΟΥΜΠΑΡΟΙ</div>
+                    <div>ΚΩΝΣΤΑΝΤΙΝΑ ΚΟΥΓΙΑΤΣΟΥ, ΜΑΡΙΟΣ ΒΑΣΙΛΟΥΔΗΣ</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -275,33 +287,28 @@
               <div class="map-info-container">
                 <div
                   class="info-wrapper"
-                  data-animation-direction="from-bottom"
-                  data-animation-delay="100"
+                 
                 >
                   <div class="location-info">
                     <div class="neela-style">
                       <h4 class="has-icon">
-                        <i class="icon-big-church"></i>Ceremony<small
-                          >03:00pm</small
+                        <i class="icon-big-church"></i>Μυστήριο<small
+                          >04:00μ.μ</small
                         >
                       </h4>
-                      <h5>Birchwood Church</h5>
-                      <p>
-                        4181 Birchwood Ave Seal Beach, CA<br />33.776825,
-                        -118.059113
-                      </p>
+                      <h5>Ιερό Ναό Αγιού Αθανασίου</h5>
+                      <p>Πολύχρονο, Χαλκιδικής</p>
 
                       <div class="info-map-divider"></div>
 
                       <h4 class="has-icon">
-                        <i class="icon-champagne-glasses"></i>Reception<small
-                          >05:30pm</small
+                        <i class="icon-champagne-glasses"></i>Δεξίωση<small
+                          >05:30μ.μ</small
                         >
                       </h4>
-                      <h5>Old Ranch Country Club</h5>
+                      <h5>Κτήμα Miravall</h5>
                       <p>
-                        29033 West Lake Drive, Agoura Hills, CA<br />33.776025,
-                        -118.065314
+                        Νεα Μουδανιά, Χαλκιδικής<br <a href="https://www.google.com/maps/place/Miravall/@40.270386,23.2661728,17.49z/data=!4m6!3m5!1s0x14a87b6c24501785:0x85d5760cdd353020!8m2!3d40.2704379!4d23.2689362!16s%2Fg%2F11cs47z6ly?entry=ttu">Οδηγίες</a>
                       </p>
                     </div>
                   </div>
@@ -504,54 +511,6 @@
                     <label for="num_guests">Number of guests</label>
                   </div>
 
-                  <fieldset
-                    class="form-check-wrapper required"
-                    name="Meal Preferences"
-                    id="meal_pref"
-                  >
-                    <label>Meal Preferences:</label>
-
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="meal_meat"
-                      />
-                      <label for="meal_meat"> Meat </label>
-                    </div>
-
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="meal_fish"
-                      />
-                      <label for="meal_fish"> Fish </label>
-                    </div>
-
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="meal_vegetarian"
-                      />
-                      <label for="meal_vegetarian"> Vegetarian </label>
-                    </div>
-
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="meal_gluten_free"
-                      />
-                      <label for="meal_gluten_free"> Gluten free </label>
-                    </div>
-                  </fieldset>
-
                   <div class="form-floating">
                     <textarea
                       id="message"
@@ -585,30 +544,30 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="footer-info left">
-                  Saturday, 24 September 2022 at 03:00 pm<br />
-                  4181 Birchwood Ave Seal Beach, CA
+                  Σάββατο, 17 Φεβρουαρίου 2024 στις 04:00μ.μ<br />
+                  στον Ιερό Ναό Αγιού Αθανασίου στο Πολύχρονο Χαλκιδικής
                 </div>
               </div>
 
               <div class="col-md-4">
                 <div class="footer-logo">
-                  Isabella<br />
+                  Παναγιώτης<br />
                   <small>&</small><br />
-                  Andrew
+                  Μαρία
                 </div>
               </div>
 
               <div class="col-md-4">
                 <div class="footer-info right">
-                  Tel.: +0012 345 678 910<br />
-                  E-mail: isabella.andrew@example.com
+                  Tel.: +30 6972527306<br />
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="copyright">
+        <!-- <div class="copyright">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -618,7 +577,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </footer>
       <!-- END FOOTER -->
     </div>

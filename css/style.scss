@@ -137,10 +137,7 @@ $pattern: url("../images/neela-pattern.png");
 }
 
 #the-wedding {
-  @include background-image-retina(
-    "https://via.placeholder.com/1920x1080",
-    "png"
-  );
+  @include background-image-retina("../images/invitation-background@2x", "jpg");
 }
 
 #bridesmaids,
