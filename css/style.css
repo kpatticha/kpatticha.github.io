@@ -3843,6 +3843,7 @@ section.side-flowers {
   top: -40px;
   text-align: center;
   max-height: 0;
+  max-height: 500px;
 }
 .wedding-gifts li .info img {
   background: rgba(255, 255, 255, 0.15);
@@ -3854,18 +3855,18 @@ section.side-flowers {
 .wedding-gifts li .info .btn {
   margin: 20px 10px;
 }
-.wedding-gifts li:hover .neela-style {
+.wedding-gifts li .neela-style {
   height: auto;
 }
 .wedding-gifts li:hover .neela-style .h-lines {
   border-top-color: #53735c;
   border-bottom-color: #53735c;
 }
-.wedding-gifts li:hover .neela-style .v-lines {
+.wedding-gifts li .neela-style .v-lines {
   border-left-color: #53735c;
   border-right-color: #53735c;
 }
-.wedding-gifts li:hover .info {
+.wedding-gifts li .info {
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
@@ -6592,16 +6593,16 @@ textarea.form-control {
     font-size: 13pt;
   }
 
-  .wedding-gifts li .neela-style {
+  /* .wedding-gifts li .neela-style {
     padding: 15px;
-  }
-  .wedding-gifts li > div > i {
+  } */
+  /* .wedding-gifts li > div > i {
     font-size: 28pt;
     top: 3px;
   }
   .wedding-gifts li h3 {
     font-size: 14pt;
-  }
+  } */
 
   .form-wrapper {
     padding: 20px 25px;
