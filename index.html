@@ -243,11 +243,13 @@
           <div class="row">
             <div class="col-sm-12">
               <h2 class="section-title">Τοποθεσία</h2>
+
             </div>
           </div>
         </div>
 
         <div class="container">
+
           <div class="row">
             <div class="col-lg-12 col-xl-10 offset-xl-1">
               <div class="map-info-container">
@@ -255,27 +257,39 @@
                   class="info-wrapper"
                  
                 >
+
                   <div class="location-info">
                     <div class="neela-style">
+                      <a target="_blank" href="https://www.google.com/maps/place/%CE%91%CE%93%CE%99%CE%9F%CE%A3+%CE%91%CE%98%CE%91%CE%9D%CE%91%CE%A3%CE%99%CE%9F%CE%A3+(%CE%95%CE%9D%CE%9F%CE%A1%CE%99%CE%91%CE%9A%CE%9F%CE%A3)/@40.0163214,23.5234237,17z/data=!4m14!1m7!3m6!1s0x14a628d7cfd6ac8d:0xc7d9f4c6d053a971!2zzpHOk86Zzp_OoyDOkc6YzpHOnc6RzqPOmc6fzqMgKM6Vzp3On86hzpnOkc6azp_Ooyk!8m2!3d40.0163214!4d23.5259986!16s%2Fg%2F1q6ccf7lf!3m5!1s0x14a628d7cfd6ac8d:0xc7d9f4c6d053a971!8m2!3d40.0163214!4d23.5259986!16s%2Fg%2F1q6ccf7lf?entry=ttu">
+
                       <h4 class="has-icon">
                         <i class="icon-big-church"></i>Μυστήριο<small
                           >04:00μ.μ</small
                         >
                       </h4>
-                      <h5>Ιερό Ναό Αγιού Αθανασίου</h5>
-                      <p>Πολύχρονο, Χαλκιδικής</p>
 
+                      <h5>Ιερό Ναό Αγιού Αθανασίου</h5>
+                      <p>Πολύχρονο, Χαλκιδικής <br> 
+                        Πατήστε εδω για οδηγίες
+                      </p>
+
+                      </a>
                       <div class="info-map-divider"></div>
+                      <a target="_blank" href="https://www.google.com/maps/place/Miravall/@40.270386,23.2661728,17.49z/data=!4m6!3m5!1s0x14a87b6c24501785:0x85d5760cdd353020!8m2!3d40.2704379!4d23.2689362!16s%2Fg%2F11cs47z6ly?entry=ttu">
 
                       <h4 class="has-icon">
                         <i class="icon-champagne-glasses"></i>Δεξίωση<small
                           >05:30μ.μ</small
                         >
                       </h4>
+
                       <h5>Κτήμα Miravall</h5>
                       <p>
-                        Νεα Μουδανιά, Χαλκιδικής<br <a href="https://www.google.com/maps/place/Miravall/@40.270386,23.2661728,17.49z/data=!4m6!3m5!1s0x14a87b6c24501785:0x85d5760cdd353020!8m2!3d40.2704379!4d23.2689362!16s%2Fg%2F11cs47z6ly?entry=ttu">Οδηγίες</a>
+
+                        Νεα Μουδανιά, Χαλκιδικής<br>
+                        Πατήστε εδω για οδηγίες
                       </p>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -287,14 +301,12 @@
                 >
                   <div id="map_canvas" class="gmap"></div>
 
-                  <!-- <div class="map_pins">
+                  <div class="map_pins">
                     <ul class="pins">
-                      <li><i class="fas fa-bell"></i>Ceremony</li>
-                      <li><i class="fas fa-glass-cheers"></i>Reception</li>
-                      <li><i class="fas fa-bed"></i>Accomodations</li>
-                      <li><i class="fas fa-plane"></i>Transportation</li>
+                      <li><i class="fas fa-bell"></i>Εκκλησία</li>
+                      <li><i class="fas fa-glass-cheers"></i>Κτήμα Miravall</li>
                     </ul>
-                  </div> -->
+                  </div>
                 </div>
               </div>
 
@@ -355,8 +367,12 @@
               class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 col-xxl-6 offset-xxl-3"
             >
               <div class="form-wrapper flowers neela-style">
-                <h1 class="section-title">Will you Attend?</h1>
+                <h1 class="section-title">Επιβεβαίωση</h1>
+                <p> 
+                  Παρακαλούμε συμπληρώστε τη φόρμα επιβεβαίωσης παρουσίας στον γάμο έως τις XX/XX/2024. 
+                </p>
 
+                 <br>
                 <form id="form-rsvp" method="post" action="#">
                   <div class="form-floating">
                     <input
@@ -366,18 +382,18 @@
                       placeholder="Your Name*"
                       class="form-control required fromName"
                     />
-                    <label for="name">Your Name*</label>
+                    <label for="name">Ονοματεπώνυμο</label>
                   </div>
 
                   <div class="form-floating">
                     <input
-                      type="email"
-                      name="E-mail"
-                      id="email"
-                      placeholder="E-mail*"
+                      type="tel"
+                      name="tel"
+                      id="tel"
+                      placeholder=""
                       class="form-control required fromEmail"
                     />
-                    <label for="email">E-mail*</label>
+                    <label for="email">Τηλέφωνο</label>
                   </div>
 
                   <div class="form-check-wrapper">
@@ -389,7 +405,7 @@
                         id="attend_wedding_yes"
                       />
                       <label for="attend_wedding_yes"
-                        >Yes, I will attend.</label
+                        >Ναι, Θα παρευρεθώ</label
                       >
                     </div>
 
@@ -401,7 +417,7 @@
                         id="attend_wedding_no"
                       />
                       <label for="attend_wedding_no"
-                        >Sorry, I can't come.</label
+                        >Οχι, δεν θα παρευρεθώ</label
                       >
                     </div>
                   </div>
@@ -423,25 +439,16 @@
                       <option value="7">7</option>
                     </select>
 
-                    <label for="num_guests">Number of guests</label>
+                    <label for="num_guests">Αριθμός ατόμων</label>
                   </div>
 
-                  <div class="form-floating">
-                    <textarea
-                      id="message"
-                      name="Message"
-                      placeholder="Message"
-                      class="form-control"
-                      rows="4"
-                    ></textarea>
-                    <label for="message">Message</label>
-                  </div>
+                 
 
                   <div class="form_status_message"></div>
 
                   <div class="center">
                     <button type="submit" class="btn btn-primary submit_form">
-                      Send
+                      Αποστολη
                     </button>
                   </div>
                 </form>
@@ -499,7 +506,7 @@
     <!-- END WRAPPER -->
 
     <!-- Google Maps API and Map Richmarker Library -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHOXsTqoSDPQ5eC5TChvgOf3pAVGapYog"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRVrjZT58qMWLbDxQnodYU_pu0HJ1zrAo"></script>
     <script src="js/richmarker.js"></script>
 
     <!-- Libs -->
